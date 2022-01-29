@@ -1,6 +1,6 @@
 <?php
 
-namespace Shitein\Menus\src\controllers\Base;
+namespace Shitein\Menus\controllers\Base;
 
 use App\Package\Menus\src\controllers\Controller;
 use Illuminate\Http\Request;
