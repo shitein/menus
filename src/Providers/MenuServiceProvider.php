@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Package\Menus\src;
+namespace Shitein\Menu\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
