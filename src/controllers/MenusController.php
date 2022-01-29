@@ -13,6 +13,7 @@ use Illuminate\Http\Request;
 use Shitein\Menus\src\models\RoleModel;
 use App\Http\Requests;
 use Exception;
+use Illuminate\Support\Facades\Session;
 //use Illuminate\Support\Facades\Validator;
 
 class MenusController extends Controller
