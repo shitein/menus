@@ -1,6 +1,6 @@
 <?php
 
-namespace Shitein\Menus\src\models;
+namespace Shitein\Menus\models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
