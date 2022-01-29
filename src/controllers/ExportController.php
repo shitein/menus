@@ -1,5 +1,5 @@
 <?php
-namespace Shitein\Menus\src\controllers;
+namespace Shitein\Menus\controllers;
 
 use Illuminate\Http\Request;
 use App\Export\Export;
