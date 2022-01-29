@@ -17,6 +17,12 @@ use Exception;
 
 class MenusController extends Controller
 {
+    public function __construct() {
+        $sessionData    = Session::get('user_info');
+        if ($sessionData['role'] != 'Super Admin') {
+            return response()->view('Menus::layouts.access_denied');
+        }
+    }
 
     /**
      * Display Menu Listing.
