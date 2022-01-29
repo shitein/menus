@@ -1,6 +1,6 @@
 <?php
 
-namespace Shite\Menus\src\models;
+namespace Shite\Menus\models;
 
 use Illuminate\Database\Eloquent\Model;
 
