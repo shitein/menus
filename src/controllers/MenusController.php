@@ -1,6 +1,6 @@
 <?php
 
-namespace Shitein\Menus\src\controllers;
+namespace Shitein\Menus\controllers;
 
 use App\Common\Common;
 use App\Package\Menus\src\controllers\Base\MenusBaseController;
