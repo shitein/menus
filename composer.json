@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Shitein\\Menu\\AuthServiceProvider"
+                "Shitein\\Menu\\MenuServiceProvider"
             ]
         }
     },
