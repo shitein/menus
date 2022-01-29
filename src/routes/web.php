@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::group(['namespace' => 'App\Package\Menus\src\controllers', /*'prefix' => 'auth',*/ 'middleware' => ['web']], function() {
+Route::group(['namespace' => 'Shitein\Menu\controllers', /*'prefix' => 'auth',*/ 'middleware' => ['web']], function() {
     Route::resource('/menus', 'MenusController');
     Route::get('addMenuMappingItem', 'MenusController@addMenuMappingItem');
     // ** Edit Menu Route **//
