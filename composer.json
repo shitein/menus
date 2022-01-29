@@ -1,6 +1,6 @@
 {
-    "name": "shitein/menu",
-    "description": "Menu",
+    "name": "shitein/menus",
+    "description": "Menus Package",
     "type": "library",
     "require": {
         "php": "^7.1"
@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Shitein\\Menu\\Providers\\MenusServiceProvider"
+                "Shitein\\Menus\\Providers\\MenusServiceProvider"
             ]
         }
     },
