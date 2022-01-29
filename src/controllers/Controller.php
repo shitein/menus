@@ -1,6 +1,6 @@
 <?php
 
-namespace Shitein\Menus\src\controllers;
+namespace Shitein\Menus\controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
