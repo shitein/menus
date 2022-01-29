@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Package\Menus\src\models;
+namespace Shitein\Menus\src\models;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
