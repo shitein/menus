@@ -3,14 +3,14 @@
 namespace Shitein\Menus\controllers;
 
 use App\Common\Common;
-use App\Package\Menus\src\controllers\Base\MenusBaseController;
-use App\Package\Menus\src\controllers\Controller_services\MenusServiceController;
-use App\Package\Menus\src\controllers\Base\ErrorlogServiceController;
+use Shitein\Menus\controllers\Base\MenusBaseController;
+use Shitein\Menus\controllers\Controller_services\MenusServiceController;
+use Shitein\Menus\controllers\Base\ErrorlogServiceController;
 use Shitein\Menus\models\MasterModel;
 use Shitein\Menus\models\Menus;
 use Shitein\Menus\models\MenusMapping;
 use Illuminate\Http\Request;
-use App\Package\Menus\src\models\RoleModel;
+use Shitein\Menus\src\models\RoleModel;
 use App\Http\Requests;
 use Exception;
 //use Illuminate\Support\Facades\Validator;
