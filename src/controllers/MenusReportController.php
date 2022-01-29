@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Package\Menus\src\controllers;
+namespace Shitein\Menus\src\controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Exception;
